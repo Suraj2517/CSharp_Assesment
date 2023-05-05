@@ -42,7 +42,7 @@ namespace ExpenseTracker_App
 
         public void ViewExpense()
         {
-            Console.WriteLine("Expense Transactions:");
+            Console.WriteLine("Expense:");
             foreach (Transaction transaction in transactions)
             {
                 if (transaction.Amount < 0)
@@ -55,7 +55,7 @@ namespace ExpenseTracker_App
 
         public void ViewIncome()
         {
-            Console.WriteLine("Income Transactions:");
+            Console.WriteLine("Income:");
             foreach (Transaction transaction in transactions)
             {
                 if (transaction.Amount > 0)
